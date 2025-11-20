@@ -17,10 +17,6 @@ body {
   position: relative;
   width: 100vw;
   height: 100vh;
-  /* background-image: url('./assets/BG-1080x1920.png');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; */
   overflow: hidden;
   z-index: 0;
 }
@@ -40,35 +36,6 @@ body {
   z-index: 1;
   pointer-events: none;
 }
-
-/* CLOSE BUTTON (Top-Right) */
-/* .close-btn {
-  position: absolute;
-  top: 5.65%;
-  right: 0%;
-  z-index: 10;
-
-  width: 32px;
-  height: 32px;
-  padding: 0;
-
-  border: none;
-  border-radius: 50%;
-  background: rgba(233, 3, 3, 0.755);
-  color: white;
-  font-size: 20px;
-  font-weight: 600;
-  cursor: pointer;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  line-height: 1;
-} */
-
-/* .close-btn:active {
-  transform: scale(0.9);
-} */
 
 /* BIRD IMAGE */
 .imgsOne img:nth-child(1) {
